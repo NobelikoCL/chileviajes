@@ -34,8 +34,23 @@
        background-color: #000000;
        -webkit-text-size-adjust: 100%;
        -webkit-tap-highlight-color: transparent
-   }
+          }
    
+          .container .row h2.text-center,
+          .container .row .col-4 ul.list-unstyled,
+          .container .row .col-4 p.text-white.text-center {
+              margin-top: 16px;
+          }
+
+
+   h5 {
+    color: #ffffff;
+   }
+footer {
+    margin-top: 100px;
+    background-color: #2d8feb;
+}
+
    [tabindex="-1"]:focus:not(:focus-visible) {
        outline: 0!important
    }
